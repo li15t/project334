@@ -1,0 +1,104 @@
+
+body {
+  padding: 20px 20%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form > div >label,
+legend {
+  font-size: 1.3em;
+  float: left;
+  padding-right: 10px;
+
+}
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+   height: 50px;
+   width: 80%; 
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+  }
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+outline: 0;
+border-color: #4697e4;
+}
+
+@media (max-width: 600px) {
+  form > div >label,
+  legend {
+color:red;
+    width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  text-align: right;
+font-size: 1.2em;
+  }
+form > div{
+   padding: 5px 5%;
+border-radius: 5px;
+    background-color: #f2f2f2;
+    
+}
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+   
+   height: 50px;
+    width: 100%; 
+margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 1200Px) {
+  form > div > label{
+  	text-align: right;
+        font-size: 1.5em;
+padding-top: 7px;
+}
+form > div{
+   padding: 5px 5%;
+}
+input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+height: 30px;  
+ width: 50%; 
+text-align: left;
+    border: 1px solid #58595b;
+  }
+
+}

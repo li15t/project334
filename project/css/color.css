@@ -1,0 +1,88 @@
+
+
+@media (max-width:  768px){ 
+.topic div.t1:after {
+ content: " Mobile";
+ font-style:normal;
+ font-weight:900;
+ color:#FFFF00;
+}
+
+.topic div.t2:before {
+ content: " Mobile ";
+ font-style:normal;
+ font-weight:900;
+ color:#FFFF00;
+}
+
+}
+
+
+body { background-color:#3366CC; }
+
+.topic {
+ font-family: sans-serif;
+ text-align:center;
+ font-style:italic;
+ color:#E36F1D;
+}
+
+.topic div.t1 {
+ margin:10px;
+ font-style:normal;
+ font-weight:900;
+ color:#E80000;
+}
+
+.topic div.t2 {
+ margin:10px;
+ font-style:normal;
+ font-weight:900;
+ color:#FFFF33;
+}
+
+div.bigbox  {
+  width: 80%;
+  float: none;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+ /* background: #569bbd; color: white; */
+  font-family: MetaComp-Bold, Arial, Helvetica;
+  font-size: 13pt;
+  padding: 10px;
+  /* margin: 20px; */
+  margin: auto;
+  line-height: 20pt;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+    margin-bottom: 20px; 
+ }
+
+div.bigbox1 {
+  
+  background-color: #6d8d23;
+  color: white;
+ }
+ 
+div.bigbox2 {
+  background-color: #569bbd;
+  color: white;
+ }
+ 
+ div.bigbox3 {
+  background-color: #9900CC;
+  color: white;
+ }
+ 
+ div.bigbox4 {
+  background-color: #4A3800;
+  color: white;
+ }
+
+ /*div.bigbox:hover, */ 
+ div.grouping a:hover  div {
+   background: #eeb20f !important;
+   color: black !important;
+ }
+ 
